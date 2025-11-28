@@ -1,0 +1,21 @@
+title: "ChatJoPT – AI/CS Study & Logs"
+description: "Computer Science, AI, Math, Projects, Daily Logs"
+baseurl: "" # root 도메인
+url: "https://yourname.github.io"
+
+theme: minima
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  math_engine: mathjax
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
